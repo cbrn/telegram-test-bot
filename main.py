@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 # Main functions.
 
 def main():
-    updater = Updater(token='1254931161:AAEA4xHsN3vlEIcnE6il5g-T0J43a-HudTM', use_context=True)
+    updater = Updater(token='TOKEN', use_context=True)
     dispatcher = updater.dispatcher
 
     # Commands
